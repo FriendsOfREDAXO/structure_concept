@@ -1,0 +1,8 @@
+<section data-type="component-text">
+    <div class="page-header">
+        <h1><b class="text-uppercase"><span class="rex-value" data-value="value1" data-slice="REX_SLICE_ID">REX_VALUE[id=1 output=html]</span></b></h1>
+        <p class="lead">
+            <em><span class="rex-value" data-value="value2" data-slice="REX_SLICE_ID">REX_VALUE[id=2 output=html]</span></em>
+        </p>
+    </div>
+</section>

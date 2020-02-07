@@ -1,0 +1,18 @@
+package: structure_concept
+version: '0.1'
+author: 'Peter Thiel'
+
+page:
+    title: Struktur Konzept
+    pjax: true
+    subpages:
+        structure: { title: Inhalt }
+
+stylesheets:
+    - structure_concept.css
+    
+requires:
+    redaxo: '^5.6.0'
+    packages:
+        mform: '^5.0.0'
+        cke5: '^3.0.0'

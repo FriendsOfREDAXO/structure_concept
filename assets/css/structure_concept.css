@@ -1,0 +1,33 @@
+.structure-container{
+	display:grid;
+	grid-template-columns:2fr 1fr;
+	position:relative;
+}
+.structure-content{
+	width:400px;
+}
+.structure-content img{
+	width:100%;
+}
+.structure-content{
+	min-height:30px;
+	border:1px dashed #000;
+	padding:15px;
+}
+.structure-node{
+}
+.structure-node-content{
+	min-height:30px;
+}
+.structure-modules{
+	position:absolute;
+	z-index:10;
+	top:0;
+	right:0;
+}
+.structure-title{
+	font-weight:bold;
+}
+.structure-markups{
+	display:none;
+}

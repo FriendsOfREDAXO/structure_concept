@@ -1,0 +1,13 @@
+<?php
+
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$mform = new MForm();
+$mform->addTextAreaField(1, array('label'=>'Textarea','class'=>'cke5-editor','data-profile'=>'default'));
+$mform->addTextAreaField(2, array('label'=>'Textarea','class'=>'cke5-editor','data-profile'=>'default'));
+
+echo $mform->show();
+
+?>
