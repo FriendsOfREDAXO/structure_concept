@@ -14,3 +14,6 @@ This is a Redaxo 5 concept addon for a new structure management.
 1. Copy files to addon folder and install through backend
 2. Create a template and use the code from folder "/templates/example.tpl"
 3. Create a module and use the code from "/modules/example.input" and "/modules/example.output"
+
+## Usage
+You can use the Frontendbuilder to add and edit blocks in the frontend on the fly. The changes are then saved debounced to the database.
